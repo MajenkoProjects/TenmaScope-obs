@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+ 
+Name: @PACKAGE_NAME@
+Description: libtenma
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -ltenma
+Cflags: -I${includedir}
+Requires: libusb-1.0 gdlib
+Requires.private: 

@@ -1,0 +1,3 @@
+[submodule "libtenma"]
+	path = libtenma
+	url = git@github.com:MajenkoProjects/libtenma.git
